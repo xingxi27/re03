@@ -1,0 +1,66 @@
+/* 搜索框 */
+.search{
+   float: right; 
+   margin-top: -22px;
+
+}
+.search img{
+    margin-top: -30px;
+}
+
+.center h1{
+    color: gray;
+    margin-top: 20px;
+    margin-left: 5%;
+    font-size: 27px;
+}
+
+.center .hp{
+    border: 0.5px #e7e4e4 solid;
+}
+.center .hp img{
+    margin-left:5%;
+    margin-top: 10px;
+    vertical-align:middle;  /*让图片文字一排*/
+}
+.center .hp span{  
+    border: 1px #fff solid;
+    padding: 5px;  
+    color: gray;
+}
+.center .hp p{
+    color: gray;
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 16px;
+}
+
+/* welcome */
+.welcome{
+    width: 60%;
+    margin: 30px auto;
+}
+.welcome h1{
+    text-align: center;
+    color: rgb(236, 118, 118);
+    font-size: 36px;
+}
+.welcome p{
+    text-align: center;
+    color: gray;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+/*  */
+.center .photo{
+    border: 0.5px #e7e4e4 solid;
+}
+
+.center .photo li{
+    float: left;
+
+}
+.center .photo h1{
+    margin-bottom: 10px;
+}

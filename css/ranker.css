@@ -1,0 +1,104 @@
+.main img{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10px;
+    
+}
+/* 侧边栏 */
+.main .sidebar li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.main .sidebar li:hover{
+    background-color: #555;
+    color: white;
+}
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.main li p{
+    padding: 5px;
+    overflow: hidden;
+    text-decoration: none;
+    margin-right: 30px;
+    
+}
+/* 侧边栏 */
+.main .sidebar span{
+    color: gray;
+    padding: 7px;
+    margin-top: -5px;
+}
+.main .sidebar{
+    width: 240px; 
+    position: fixed; /* 固定侧边栏（滚动时保持原位）*/
+    z-index: 1; /* 保持领先 */
+    top: 180px; 
+    left: 30px;
+    overflow-x: hidden; /* 禁用水平滚动 */
+    padding-top:5px;
+    background-color: aliceblue;
+}
+.main .one{
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    border: 1px fff solid;
+}
+
+
+.main .nav{
+    /* display: inline-block;
+    vertical-align: middle; */
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10px;
+    flex-direction: column;
+
+}
+.main li{
+    margin-right: 69px;
+    display: flex;
+    
+}
+
+.main .nav li span{
+    padding: 5px;
+    font-weight: bold;
+    /* font-size:10px */
+}
+.main h1{
+    margin-top: 30px;
+    margin-left: 40px;
+    color: dimgray;
+    font-size: 40px;
+}
+/* 进度条 */
+.main .play{
+        margin-top: 30px;
+       margin-left: 40px;
+        width: 100%;
+        height: 20px;
+        position: relative;
+        overflow: hidden;
+        background-color: gray;
+        margin-bottom: 10px;
+}
+.main .play .progress{
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    background-color: coral;
+}
+.main .play span{
+    font-weight: bold;
+    color: brown;
+
+}
+.main .play img{
+    margin-left: -1px;
+    margin-top: -1px;
+}
